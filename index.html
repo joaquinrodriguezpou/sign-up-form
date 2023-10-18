@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="main-container">
-      <div class="image-container"></div>
+      <div class="image-container">
+        <div class="odin"><img src="images/odin-logo.png" alt="odin-logo" id="odin-logo"><p>ODIN</p></div>
+        <img src="images/green-plant.jpg" alt="image-left" id="green-plant">
+      </div>
       <div class="content">
         <section class="dummy-text">
           <p>This is not a real online service! You know you need something 
@@ -16,38 +19,41 @@
              Sign up now to get started.</p>
           <p>You know you want to.</p>
         </section>
-        <section class="dummy-form">
+        <section>
+          <h1>Let's do this!</h1>
           <form action="#">
-            <h1>Let's do this!</h1>
-            <div class="form-row">
-              <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name" name="user-first-name" required>
-            </div>
-            <div class="form-row">
-              <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name" name="user-last-name" required>
-            </div>
-            <div class="form-row">
-              <label for="mail">EMAIL</label>
-              <input type="email" id="mail" name="user-mail" required>
-            </div>
-            <div class="form-row">
-              <label for="phone-num">PHONE NUMBER</label>
-              <input type="number" id="phone-num" name="phone-number">
-            </div>
-            <div class="form-row">
-              <label for="pwd">PASSWORD</label>
-              <input type="password" id="pwd" name="passsword" required>
-            </div>
-            <div class="form-row">
-              <label for="confirm-pwd">CONFIRM PASSWORD</label>
-              <input type="password" id="confirm-pwd" name="confirm-passsword" required>
+            <div id="dummy-form">
+              <div class="form-input">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="user-first-name" required>
+              </div>
+              <div class="form-input">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="user-last-name" required>
+              </div>
+              <div class="form-input">
+                <label for="mail">EMAIL</label>
+                <input type="email" id="mail" name="user-mail" placeholder="joa@example.com" required>
+              </div>
+              <div class="form-input">
+                <label for="phone-num">PHONE NUMBER</label>
+                <input type="number" id="phone-num" name="phone-number" minlength="9"
+                       maxlength="9" placeholder="example 261-555-9822">
+              </div>
+              <div class="form-input">
+                <label for="pwd">PASSWORD</label>
+                <input type="password" id="pwd" name="passsword" required>
+              </div>
+              <div class="form-input">
+                <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-pwd" name="confirm-passsword" required>
+              </div>
             </div>
           </form>
         </section>
         <section class="create-account">
           <button type="submit">Create Account</button>
-          <p>Already have an account? Log In</p>
+          <p>Already have an account? <a href="" id="log-in-link">Log In</a></p>
         </section>
       </div>
     </div>
