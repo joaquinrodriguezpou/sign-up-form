@@ -138,3 +138,26 @@ input:focus {
   
 }
 
+.create-account button {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Norse-bold', 'Roboto', sans-serif;
+  letter-spacing: 0.2rem;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  background-color: rgba(44, 123, 24, 0.7);
+  margin: 1rem 0;
+}
+
+.create-account p {
+  font-weight: 600;
+  color: black;
+}
+
+#log-in-link {
+  color: black;
+  border: 2px solid grey;
+  border-radius: 3px;
+  padding: 0.3rem;
+  text-decoration: none;
+}
